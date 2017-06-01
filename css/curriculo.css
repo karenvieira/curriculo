@@ -1,0 +1,281 @@
+body {
+	margin: 0;
+	background-color: #f2f2f2;	
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.botao-acesso {
+	display: block;
+	padding: 30px;
+	font-size: 32px;
+	background-color: #B02D4C;
+	color: #F9E6C6;
+	font-family: 'Lobster', cursive;
+}
+
+.botao-acesso:focus {
+	background-color: #F9E6C6;
+	color: #B02D4C;
+}
+.botao-acesso:focus,
+.botao-acesso:hover,
+.botao-acesso:active,
+.botao-acesso:visited {
+	outline: none !important;	
+}
+
+
+.botao-acesso:hover {
+	background-color: #F9E6C6;
+	color: #B02D4C;
+}
+
+.curriculo {
+	display: none;
+}
+
+.golden-circle {
+	display: block;
+	background-color: #F9E6C6;
+	margin-bottom: 10px;
+	height: 570px;
+}
+
+.golden-circle h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #cea715;
+	font-weight: bold;
+	padding-top: 5%;
+	font-family: 'Catamaran', sans-serif;
+}
+
+.golden-circle h3 {
+	text-align: center;
+	background-color: #e8d4b1;
+	padding: 13px;
+	color: #292929;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Catamaran', sans-serif;
+	margin-top: 20px;
+
+}
+
+.golden-circle p {
+	text-align: justify;
+	margin: 0 20px;
+	font-size: 13px;
+	margin-bottom: 40px;
+	height: 50px;
+}
+
+.resume {
+	display: block;
+	background-color: #F7C2BC;
+	margin-bottom: 10px;
+	height: 570px;
+}
+
+.resume h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #AC1639;
+	font-weight: bold;
+	padding-top: 5%;
+	font-family: 'Catamaran', sans-serif;
+}
+
+.resume p {
+	text-align: justify;
+	margin: 0 20px;
+	font-size: 13px;
+} 
+
+.skills {
+	display: block;
+	background-color: #F7C2BC;
+	margin-bottom: 50px;
+	height: 500px;
+}
+
+.skills h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #AC1639;
+	font-weight: bold;
+	padding-top: 1%;
+	font-family: 'Catamaran', sans-serif;
+
+}
+
+.skills p {
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 14px;
+	color: black;
+	margin-top: 20px;
+}
+
+.skills span {
+	float: left;
+	margin-right: 20px;
+	margin-left: 40px;
+	color: #AC1639;
+	margin-top: 12px;
+}
+
+.foto {
+	height: auto;
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.courses {
+	display: block;
+	background-color: #F9E6C6;
+	margin-bottom: 50px;
+	height: 500px;
+}
+
+.borda {
+	margin-top: 35px;
+	padding-top: 5%;
+	border-top: 2px solid #cea715;
+}
+
+.courses h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #cea715;
+	font-weight: bold;
+	font-family: 'Catamaran', sans-serif;
+}
+
+.courses p {
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 14px;
+	color: black;
+	margin-top: 20px;
+}
+
+.courses span {
+	float: left;
+	margin-right: 20px;
+	margin-left: 40px;
+	color: #cea715;
+	margin-top: 12px;
+}
+
+.experiencias {
+	text-align: left;
+	font-size: 11px !important;
+	margin-left: 6%;
+	margin-top: 7px !important;
+}
+
+.contact {
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	background-color: #AC1639;
+	padding: 35px 0;
+}
+
+.contact a {
+	margin-left: 4px;
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.contact a:hover {
+	color: #F7C2BC;
+}
+
+.contatos span {
+	float: left;
+}
+
+/*LOADING*/
+.loader {
+	display: none;
+	color: #AC1639;
+	font-size: 20px;
+	margin: 100px auto;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	position: relative;
+	text-indent: -9999em;
+	-webkit-animation: load4 1.3s infinite linear;
+	animation: load4 1.3s infinite linear;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+}
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
+
+/*fim do loading*/
